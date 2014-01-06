@@ -16,6 +16,17 @@ Install the latest from github:
 
     $ pip install https://github.com/pjtpj/python-jibebuy
 
+## Getting the code
+
+The code is hosted at [Github](https://github.com/pjtpj/python-jibebuy).
+
+Check out the latest development version anonymously with:
+
+```
+ $ git clone git://github.com/pjtpj/python-jibebuy.git
+ $ cd python-jibebuy
+```
+
 ## Building
 
 Install the dependencies:
@@ -43,17 +54,6 @@ Without setuptools installed:
 
 ```
 $ python jibebuy_test.py
-```
-
-## Getting the code
-
-The code is hosted at [Github](https://github.com/pjtpj/python-jibebuy).
-
-Check out the latest development version anonymously with:
-
-```
- $ git clone git://github.com/pjtpj/python-jibebuy.git
- $ cd python-jibebuy
 ```
 
 ## Using
@@ -90,6 +90,7 @@ The API is exposed via the `jibebuy.Api` class. Here is an example of its use:
 >>> # Add a photo to the choice
 >>> new_api_choice_photo = { 'list_choice': choice['url'] }
 >>> response = api.post_list_choice_photo(new_api_choice_photo, open('~/tmp/ebay.png'))
+```
 
 ## Todo
 
