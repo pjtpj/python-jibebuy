@@ -12,6 +12,10 @@ wrapper for the Jibebuy REST API.
 
 ## Installing
 
+Install the official release from PyPI:
+
+    $ pip install python-jibebuy
+
 Install the latest from github:
 
     $ pip install https://github.com/pjtpj/python-jibebuy/zipball/master
