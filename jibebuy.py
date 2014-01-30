@@ -61,7 +61,7 @@ class Api(object):
             if isinstance(forlist, (int, long)):
                 listval = str(forlist)
             else:
-                listval = JibebuyAPI._list_url_to_id(forlist)
+                listval = Api._list_url_to_id(forlist)
             requrl += "?list=" + listval
         return requrl
 
